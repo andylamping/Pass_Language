@@ -1,20 +1,9 @@
 This is just to provide a link to a current project in COMS W4115.001 PROGRAMMING LANGUAGES & TRANSLATORS.
 Link: https://bitbucket.org/passrafi1/pass/
-The idea is to develop a new programming language. The language that my group is working on is called Pass.
+The idea is to develop a new programming language, called Pass, that simplifies real time connection building and the following communication between client and server. Pass also allows functions on the server to be called like any other function on the client, and vice versa. Moreover, once these connections are established, Pass provides convenient data structures to help organize, search through, and keep track of these connections. 
 
 Summary
 =========
-The recent emergence of WebSockets has given developers a new tool to deploy dynamic real time connections and 
-content between the client and server. Unfortunately, the tedious HTTP request/response model that was designed 
-to facilitate the functions of the internet’s early origins as a distributed, static file system of one-way 
-communications, has been folded into most libraries that support this new protocol. In order to write a functional
-real-time web application, a programmer must first learn these older protocols and the associated syntax for 
-initializing a server, establishing socket connections, and other verbose functions associated with the traditional 
-client-server architecture. This is tedius, time consuming and thanks to Pass, now unessasary.
+The recent emergence of WebSockets has given developers a new tool to deploy dynamic real time connections and content between the client and server. Unfortunately, the tedious HTTP request/response model that was designed to facilitate the functions of the internet’s early origins as a distributed, static file system of one-way communications, has been folded into most libraries that support this new protocol. In order to write a functional real-time web application, a programmer must first learn these older protocols and the associated syntax for initializing a server, establishing socket connections, and other verbose functions associated with the traditional client-server architecture. This is tedius, time consuming and thanks to Pass, now unessasary.
 
-The Pass language and it's libraries take care of this repetitive, boilerplate configuration automatically so 
-that the programmer can immediately begin work on the main application logic. The entire network architecture 
-is abstracted into a few intuitive functions that facilitate easy, seamless communication between server and client. 
-Pass also allows functions on the server to be called like any other function on the client, and vice versa. Moreover 
-once these connections are established, Pass provides conient data structures to help organise, search through, and 
-keep track of these connections. 
+The Pass language and it's libraries take care of this repetitive, boilerplate configuration automatically so that the programmer can immediately begin work on the main application logic. The entire network architecture is abstracted into a few intuitive functions that facilitate easy, seamless communication between server and client. Pass also allows functions on the server to be called like any other function on the client, and vice versa. Moreover once these connections are established, Pass provides conient data structures to help organise, search through, and keep track of these connections. 
