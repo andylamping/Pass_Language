@@ -1,0 +1,10 @@
+// Run with:
+// $ pass PubSub.pass 8080 ./
+
+conn.subscribe = (channel, onMsg) ~
+ conn.tag(channel)
+ conn.onMsg = onMsg
+
+conn.publish = (msg, channel) ~
+ eachConnection(channel, (conn) ~
+                  conn.onMsg(msg))
