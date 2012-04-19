@@ -1,6 +1,6 @@
 This is just to provide a link to a current project in COMS W4115.001 PROGRAMMING LANGUAGES & TRANSLATORS.
 Link: https://bitbucket.org/passrafi1/pass/
-The idea is to develop a new programming language. The language that my group is working on is called Pass.
+The idea is to develop a new programming language, called Pass, that simplifies real time connection building and the following communication between client and server. Pass also allows functions on the server to be called like any other function on the client, and vice versa. Moreover, once these connections are established, Pass provides conient data structures to help organise, search through, and keep track of these connections. 
 
 Summary
 =========
